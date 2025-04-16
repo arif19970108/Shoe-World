@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shoe World | Products</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="main-header">
+    <div class="container header-container">
+      <img src="assets/logo.png" alt="Shoe World Logo" class="logo" />
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html" class="active">Products</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-icons">
+        <img src="assets/icon-search.png" alt="Search" />
+        <a href="cart.html"><img src="assets/icon-cart.png" alt="Cart" /></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Add Search Bar just after the header -->
+  <div class="search-bar-container">
+    <input type="text" class="search-input" placeholder="Search for products..." id="search-input" />
+  </div>
+
+  <!-- Filter Section -->
+  <div class="filters">
+    <!-- Category Filter -->
+    <select class="category-filter">
+      <option value="all">All Categories</option>
+      <option value="sports">Sports</option>
+      <option value="casual">Casual</option>
+      <option value="formal">Formal</option>
+    </select>
+
+    <!-- Price Filter -->
+    <select class="price-filter">
+      <option value="all">All Prices</option>
+      <option value="0-100">Below $100</option>
+      <option value="100-200">$100 - $200</option>
+      <option value="200-500">$200 - $500</option>
+      <option value="500-1000">$500 - $1000</option>
+    </select>
+  </div>
+
+  <!-- Product Grid -->
+  <section class="product-section">
+    <div class="container">
+      <h2>Our Featured Shoes</h2>
+      <div class="product-grid">
+
+        <!-- Product 1 -->
+        <a href="product-details.html?productId=1" class="product-card">
+          <img src="images/shoe-nike-airmax-black.jpg" alt="Nike Air Max" />
+          <h3>Nike Air Max 270</h3>
+          <p class="category">Sports</p>
+          <p class="price">$120</p>
+          <button>Add to Cart</button>
+        </a>
+
+        <!-- Product 2 -->
+        <a href="product-details.html?productId=2" class="product-card">
+          <img src="images/shoe-adidas-ultraboost-white.jpg" alt="Adidas Ultraboost" />
+          <h3>Adidas Ultraboost</h3>
+          <p class="category">Casual</p>
+          <p class="price">$140</p>
+          <button>Add to Cart</button>
+        </a>
+
+        <!-- Product 3 -->
+        <a href="product-details.html?productId=3" class="product-card">
+          <img src="images/shoe-puma-rsx-red.jpg" alt="Puma RS-X" />
+          <h3>Puma RS-X Red</h3>
+          <p class="category">Sports</p>
+          <p class="price">$110</p>
+          <button>Add to Cart</button>
+        </a>
+
+        <!-- Product 4 -->
+        <a href="product-details.html?productId=4" class="product-card">
+          <img src="images/shoe-reebok-classic-blue.jpg" alt="Reebok Classic" />
+          <h3>Reebok Classic Blue</h3>
+          <p class="category">Formal</p>
+          <p class="price">$95</p>
+          <button>Add to Cart</button>
+        </a>
+
+        <!-- Product 5 -->
+        <a href="product-details.html?productId=5" class="product-card">
+          <img src="images/shoe-adidas-kids-pink.jpg" alt="Adidas Kids" />
+          <h3>Adidas Kids Pink</h3>
+          <p class="category">Kids</p>
+          <p class="price">$60</p>
+          <button>Add to Cart</button>
+        </a>
+
+        <!-- Product 6 -->
+        <a href="product-details.html?productId=6" class="product-card">
+          <img src="images/shoe-apex-slipon-beige.jpg" alt="Apex Silicon" />
+          <h3>Apex Silicon Beige</h3>
+          <p class="category">Casual</p>
+          <p class="price">$150</p>
+          <button>Add to Cart</button>
+        </a>
+
+        <!-- Product 7 -->
+        <a href="product-details.html?productId=7" class="product-card">
+          <img src="images/shoe-bata-formal-brown.jpg" alt="Bata Formal" />
+          <h3>Bata Formal Brown</h3>
+          <p class="category">Formal</p>
+          <p class="price">$200</p>
+          <button>Add to Cart</button>
+        </a>
+
+        <!-- Product 8 -->
+        <a href="product-details.html?productId=8" class="product-card">
+          <img src="images/shoe-converse-high-black.jpg" alt="Converse High Black" />
+          <h3>Converse High Black</h3>
+          <p class="category">Casual</p>
+          <p class="price">$210</p>
+          <button>Add to Cart</button>
+        </a>
+
+        <!-- Product 9 -->
+        <a href="product-details.html?productId=9" class="product-card">
+          <img src="images/shoe-lotto-runner-grey.jpg" alt="Lotto Runner" />
+          <h3>Lotto Runner Grey</h3>
+          <p class="category">Sports</p>
+          <p class="price">$175</p>
+          <button>Add to Cart</button>
+        </a>
+
+        <!-- Product 10 -->
+        <a href="product-details.html?productId=10" class="product-card">
+          <img src="images/shoe-nike-revolution-grey.jpg" alt="Nike Revolution" />
+          <h3>Nike Revolution Grey</h3>
+          <p class="category">Sports</p>
+          <p class="price">$80</p>
+          <button>Add to Cart</button>
+        </a>
+
+        <!-- Product 11 -->
+        <a href="product-details.html?productId=11" class="product-card">
+          <img src="images/shoe-skechers-dlites-white.jpg" alt="Skechers Dlites" />
+          <h3>Skechers Dlites White</h3>
+          <p class="category">Casual</p>
+          <p class="price">$160</p>
+          <button>Add to Cart</button>
+        </a>
+
+        <!-- Product 12 -->
+        <a href="product-details.html?productId=12" class="product-card">
+          <img src="images/shoe-vans-oldskool-check.jpg" alt="Vans Old School" />
+          <h3>Vans Old School</h3>
+          <p class="category">Casual</p>
+          <p class="price">$40</p>
+          <button>Add to Cart</button>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+<footer class="main-footer">
+    <div class="container footer-container">
+      <p>&copy; 2025 Shoe World. All Rights Reserved.</p>
+      <div class="social-icons">
+        <a href="https://facebook.com" target="_blank"><img src="assets/icon-facebook.png" alt="Facebook" /></a>
+        <a href="https://instagram.com" target="_blank"><img src="assets/icon-instagram.png" alt="Instagram" /></a>
+        <a href="https://youtube.com" target="_blank"><img src="assets/icon-youtube.png" alt="YouTube" /></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/product-filter.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

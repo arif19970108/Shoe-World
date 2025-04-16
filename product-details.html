@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Details</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="main-header">
+    <div class="container header-container">
+      <img src="assets/logo.png" alt="Shoe World Logo" class="logo" />
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-icons">
+        <img src="assets/icon-search.png" alt="Search" />
+        <a href="cart.html"><img src="assets/icon-cart.png" alt="Cart" /></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Product Details Section -->
+  <section class="product-detail-section">
+    <div class="container product-detail-container">
+
+      <!-- Product Image -->
+      <div class="product-image">
+        <img id="product-img" src="" alt="Product Image" />
+      </div>
+
+      <!-- Product Info -->
+      <div class="product-info">
+        <h2 id="product-name">Product Name</h2>
+        <p class="price" id="product-price">$0</p>
+        <p class="desc" id="product-desc">Product description will be shown here.</p>
+
+        <!-- Select Size -->
+        <label for="size">Select Size:</label>
+        <select id="size">
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+        </select>
+
+        <!-- Quantity -->
+        <label for="qty">Quantity:</label>
+        <input type="number" id="qty" min="1" value="1" />
+
+        <!-- Add to Cart Button -->
+        <button class="add-cart-btn" id="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- External JavaScript File -->
+
+
+  <!-- Footer Section -->
+<footer class="main-footer">
+    <div class="container footer-container">
+      <p>&copy; 2025 Shoe World. All Rights Reserved.</p>
+      <div class="social-icons">
+        <a href="https://facebook.com" target="_blank"><img src="assets/icon-facebook.png" alt="Facebook" /></a>
+        <a href="https://instagram.com" target="_blank"><img src="assets/icon-instagram.png" alt="Instagram" /></a>
+        <a href="https://youtube.com" target="_blank"><img src="assets/icon-youtube.png" alt="YouTube" /></a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/product-details.js"></script>
+
+</body>
+</html>
